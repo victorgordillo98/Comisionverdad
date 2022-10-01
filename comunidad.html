@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="/css/style.css" rel="stylesheet" />
     <title>P5.js Sketch</title>
-    <script src="scripts/player.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
   </head>
   <body>
     <div class="titulo">
@@ -35,15 +37,13 @@
             required="obligatorio"
             placeholder="Deja aquí tu comentario..."
           ></textarea>
-          <button
+        </form>
+        <button
             class="buttonform"
-            type="submit"
-            name="enviar_formulario"
-            id="enviar"
+            onclick="guardar()"
           >
             <p>Enviar</p>
           </button>
-        </form>
       </div>
     </div>
     <div class="texto">
@@ -64,5 +64,7 @@
         commodo consequat.
       </p>
     </div>
+    <script src="scripts/conexion.js"></script>
+    <script src="scripts/guardar.js"></script>
   </body>
 </html>
