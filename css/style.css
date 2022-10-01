@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  height: 100%;
+  background-image: url("../components/fondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+/* Estilos de boton en el video play*/
+.buttongo {
+  display: flex;
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding: 15px 30px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+.buttongo:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+/* Estilo de boton en video de comunidad*/
+.buttonco {
+  display: flex;
+  width: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding: 15px 30px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  align-items: left;
+  align-content: left;
+  background-color: black;
+}
+.buttonco:hover {
+  background-color: transparent;
+  border: 2px solid rgb(15, 15, 15);
+  color: #000;
+}
+/* Estilos otros botones*/
+.buttong {
+  display: flex;
+  width: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding: 15px 30px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+.buttong:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+/* Estilo boton menu*/
+.icono {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+/* Estilo boton play*/
+.iconoplay {
+  height: 200px;
+  widows: 200px;
+}
+p {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+/* Estilos para hubicación del titulo y menú en dos flexbox*/
+.titulo {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+/* Estilos para el texto*/
+.texto {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+/* Estilos para la sección del contenido de la imagen index*/
+.contentimg {
+  display: flex;
+  margin: 0 auto;
+  widows: 50%;
+  background-repeat: no-repeat;
+  justify-content: space-around;
+}
+/* Estilos para el boton dentro de la sección content img*/
+.contentimg a {
+  top: 30%;
+  position: absolute;
+}
+/* Estilos para la sección del contenido del video*/
+.contentvideo {
+  display: flex;
+  margin: 0 auto;
+  widows: 50%;
+  background-repeat: no-repeat;
+  justify-content: space-around;
+}
+/* Estilos para el boton dentro de la sección content video*/
+.contentvideo a {
+  top: 70%;
+  margin-left: -60%;
+  position: absolute;
+}
+/* Estilos para la imagen de referencia */
+.imgref {
+  margin: 0 auto;
+  width: 60%;
+}
+/* Estilos de formulario*/
+.contact_form {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-image: url("../components/comentarios.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-left: 30px;
+}
+/* Formulario */
+textarea {
+  width: 90%;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  margin: 0 auto;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+input {
+  width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.buttonform {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #ab4493;
+  border-color: #ab4493;
+  border-style: solid;
+  border-radius: 10px;
+  width: 90%;
+  cursor: pointer;
+}
+.buttonform:hover {
+  background-color: transparent;
+}
+.formulario {
+  width: 100%;
+  height: 100%;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+/*VIDEO*/
+.videoframe {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
