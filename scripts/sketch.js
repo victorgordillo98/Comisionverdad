@@ -7,10 +7,10 @@ function preload() {
     width: window.innerWidth,
     height: window.innerHeight - 200,
     video:
-      "https://uploads.codesandbox.io/uploads/user/251981ba-faf0-4b4d-88d1-fc0949b1f691/TePW-video2.mp4",
+      "https://uploads.codesandbox.io/uploads/user/251981ba-faf0-4b4d-88d1-fc0949b1f691/YP8u-video2.webm",
     loop: false,
     volume: volume,
-    hide_fullscreen_button: true
+    hide_fullscreen_button: true,
   });
   vrView.on("ready", videoLoad);
 }
@@ -61,7 +61,7 @@ function videoLoad() {
     pitch: 0, // En grados. Hacia arriba es positivo
     yaw: 0, // En grados. Hacia la derecha es positivo
     radius: 0.1, // Radio del circulo
-    distance: 1 // Distancia desde la cámara
+    distance: 1, // Distancia desde la cámara
   });
 }
 // This Redraws the Canvas when resized

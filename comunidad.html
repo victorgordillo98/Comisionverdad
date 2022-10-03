@@ -7,16 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="/css/style.css" rel="stylesheet" />
     <title>P5.js Sketch</title>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
   </head>
   <body>
     <div class="titulo">
       <a class="buttong" href="video.html" target="blank"
         ><img class="icono" src="../components/arrow.png" alt=""
       /></a>
-      <h1>Vuelve al inicio</h1>
+      <h1>Dejanos tu comentario</h1>
       <div class="btn-menu">
         <label for="" src="../components/menu.png"></label>
       </div>
@@ -38,12 +35,7 @@
             placeholder="Deja aquí tu comentario..."
           ></textarea>
         </form>
-        <button
-            class="buttonform"
-            onclick="guardar()"
-          >
-            <p>Enviar</p>
-          </button>
+        <button class="buttonform" onclick="guardar()"><p>Enviar</p></button>
       </div>
     </div>
     <div class="texto">
@@ -64,7 +56,10 @@
         commodo consequat.
       </p>
     </div>
-    <script src="scripts/conexion.js"></script>
-    <script src="scripts/guardar.js"></script>
   </body>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  <script src="scripts/conexion.js"></script>
+  <script src="scripts/guardar.js"></script>
 </html>
